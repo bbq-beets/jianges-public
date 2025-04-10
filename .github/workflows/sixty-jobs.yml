@@ -1,0 +1,428 @@
+name: sixty-jobs
+
+on:
+  workflow_dispatch:
+  pull_request:
+  push:
+
+jobs:
+  build-1:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-2:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-3:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-4:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-5:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-6:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-7:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-8:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-9:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-10:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-11:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-12:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-13:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-14:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-15:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-16:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-17:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-18:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-19:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-20:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-21:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-22:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-23:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-24:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-25:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-26:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-27:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-28:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-29:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-30:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-31:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-32:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-33:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-34:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-35:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-36:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-37:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-38:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-39:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-40:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-41:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-42:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-43:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-44:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-45:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-46:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-47:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-48:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-49:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-50:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-51:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-52:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-53:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-54:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-55:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-56:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-57:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-58:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-59:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
+  build-60:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo "Don't mind me, just running this test workflow"
