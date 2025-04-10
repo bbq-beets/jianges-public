@@ -7,7 +7,7 @@ on:
 
 jobs:
   test-1:
-    runs-on: ubuntu-latest
+    runs-on: windows-11-arm
 
     steps:
       # Runs a single command using the runners shell
