@@ -13,3 +13,5 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo "Don't mind me, just running this test workflow"
+      - name: print out /opt/hca/.settings
+        run: cat /opt/hca/.settings
