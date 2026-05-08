@@ -15,3 +15,5 @@ jobs:
         run: echo "Don't mind me, just running this test workflow"
       - name: print out /opt/hca/.settings
         run: cat /opt/hca/.settings
+      - name: print out max_sectors_kb
+        run: for q in /sys/block/sd*/queue/max_sectors_kb; do echo 512 | sudo tee "$q" > /dev/null; done
