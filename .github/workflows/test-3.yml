@@ -18,7 +18,8 @@ jobs:
       - name: Run a one-line script 3
         run: ls /sys/block/sda/queue
       - name: Run a one-line script 4
-        run: cat /sys/block/sda/queue/max_sectors_kb
+        run: |
+          cat /sys/block/sda/queue/max_sectors_kb
       - name: print out max_sectors_kb
         run: for q in /sys/block/sd*/queue/max_sectors_kb; do echo 512 | sudo tee "$q" > /dev/null; done
         - name: after config script
