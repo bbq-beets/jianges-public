@@ -20,6 +20,23 @@ jobs:
       - name: Run a one-line script 4
         run: |
           cat /sys/block/sda/queue/max_sectors_kb
+      - name: Inspect block devices and queue attributes
+        run: |
+          for d in /sys/block/*; do
+            echo "device: $(basename "$d")"
+            if [ -d "$d/queue" ]; then
+              echo "queue entries:"
+              ls "$d/queue" | sed 's/^/  /'
+              if [ -e "$d/queue/max_sectors_kb" ]; then
+                echo "max_sectors_kb=$(cat "$d/queue/max_sectors_kb")"
+              else
+                echo "max_sectors_kb not present"
+              fi
+            else
+              echo "no queue directory"
+            fi
+            echo
+          done
       - name: Adjust max_sectors_kb
         run: |
           found_max_sectors_path="false"
