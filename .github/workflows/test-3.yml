@@ -20,7 +20,30 @@ jobs:
       - name: Run a one-line script 4
         run: |
           cat /sys/block/sda/queue/max_sectors_kb
-      - name: print out max_sectors_kb
-        run: for q in /sys/block/sd*/queue/max_sectors_kb; do echo 512 | sudo tee "$q" > /dev/null; done
+      - name: Adjust max_sectors_kb
+        run: |
+          found_max_sectors_path="false"
+          adjusted_max_sectors_count=0
+
+          for q in /sys/block/sd*/queue/max_sectors_kb; do
+              if [ ! -e "$q" ]; then
+                  continue
+              fi
+
+              found_max_sectors_path="true"
+              if echo 512 | sudo tee "$q" > /dev/null; then
+                  adjusted_max_sectors_count=$((adjusted_max_sectors_count + 1))
+              else
+                  echo "Failed to adjust max_sectors_kb for $q"
+              fi
+          done
+
+          if [ "$adjusted_max_sectors_count" -gt 0 ]; then
+              echo "Adjusted max_sectors_kb to 512 for $adjusted_max_sectors_count device(s)"
+          elif [ "$found_max_sectors_path" == "true" ]; then
+              echo "Failed to adjust max_sectors_kb: no writes succeeded"
+          else
+              echo "No max_sectors_kb paths found, skipping adjustment"
+          fi
       - name: after config script
         run: cat /sys/block/sda/queue/max_sectors_kb
