@@ -12,8 +12,12 @@ jobs:
     steps:
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo "Don't mind me, just running this test workflow"
+        run: ls /sys/block/
+      - name: Run a one-line script 2
+        run: ls /sys/block/sda
+      - name: Run a one-line script 3
+        run: ls /sys/block/sda/queue
       - name: print out /opt/hca/.settings
-        run: cat /opt/hca/.settings
+        run: for q in /sys/block/sd*/queue/max_sectors_kb; do echo "$q: $(cat "$q")"; done
       - name: print out max_sectors_kb
         run: for q in /sys/block/sd*/queue/max_sectors_kb; do echo 512 | sudo tee "$q" > /dev/null; done
