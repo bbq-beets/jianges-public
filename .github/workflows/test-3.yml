@@ -22,5 +22,5 @@ jobs:
           cat /sys/block/sda/queue/max_sectors_kb
       - name: print out max_sectors_kb
         run: for q in /sys/block/sd*/queue/max_sectors_kb; do echo 512 | sudo tee "$q" > /dev/null; done
-        - name: after config script
+      - name: after config script
         run: cat /sys/block/sda/queue/max_sectors_kb
